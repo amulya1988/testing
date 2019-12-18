@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge"/>-->
+    <base href="/">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">-->
+    <!--<meta name="apple-mobile-web-app-capable" content="yes">-->
+    <meta name="pdfkit-page-size" content="A3"/>
+    <meta name="pdfkit-orientation" content="Landscape"/>
+    <title>Report</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+    <link rel="stylesheet" href="/static/font/font_awesome/css/all.css">
+
+    <link rel=stylesheet type=text/css href="/static/font/stylesheet.css">
+    <link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+    <link rel=stylesheet type=text/css href="/static/font/font_awesome/css/util-minify.css">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <style>
+        .fa, .far, .fas {
+              font-family: "Font Awesome 5 Free" !important;
+          }
+
+
+
+    </style>
+    {% block head %}
+    {% endblock %}
+
+
+</head>
+<body>
+
+
+<!--<div>-->
+<!--<div class="text-right">-->
+<!--<img src="/static/images/report/thinklogo2.png" alt="thinklogo" style="width: 150px">-->
+<!--</div>-->
+<!--</div>-->
+{% block container %}
+
+
+{% endblock %}
+
+
+</body>
+</html>

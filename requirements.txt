@@ -1,0 +1,17 @@
+flask
+flask-compress
+Flask-Cache
+flask-cors
+flask-marshmallow
+flask_jsontools
+flask-sqlalchemy
+requests
+sqlalchemy
+pdfrw
+pdfkit
+pandas
+Flask-QueryInspect
+flask_basicauth
+pyPDF2
+reportlab
+inflect

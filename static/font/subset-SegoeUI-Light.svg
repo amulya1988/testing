@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <metadata>
+        Created by FontForge 20170731 at Mon Mar 26 02:59:26 2018
+        By Aleksey,,,
+        (c) 2018 Microsoft Corporation. All Rights Reserved.
+
+        Hebrew OpenType Layout logic copyright (c) 2003 &#38; 2007, Ralph Hancock &#38; John Hudson. This layout logic
+        for Biblical Hebrew is open source software under the MIT License; see embedded license description for details.
+    </metadata>
+    <defs>
+        <font id="SegoeUI-Light" horiz-adv-x="1322">
+            <font-face
+                    font-family="Segoe UI Light"
+                    font-weight="300"
+                    font-stretch="normal"
+                    units-per-em="2048"
+                    panose-1="2 11 5 2 4 2 4 2 2 3"
+                    ascent="1638"
+                    descent="-410"
+                    cap-height="1434"
+                    bbox="59 0 1229 1434"
+                    underline-thickness="119"
+                    underline-position="-355"
+                    unicode-range="U+0020-0041"
+            />
+            <missing-glyph
+                    d="M166 0v1398h990v-1398h-990zM314 148h694v1102h-694v-1102z"/>
+            <glyph glyph-name=".notdef"
+                   d="M166 0v1398h990v-1398h-990zM314 148h694v1102h-694v-1102z"/>
+            <glyph glyph-name="glyph1" horiz-adv-x="0"
+            />
+            <glyph glyph-name="uni000D" horiz-adv-x="199"
+            />
+            <glyph glyph-name="space" unicode=" " horiz-adv-x="561"
+            />
+            <glyph glyph-name="A" unicode="A" horiz-adv-x="1288"
+                   d="M1118 0l-164 446h-622l-164 -446h-109l541 1434h94l535 -1434h-111zM678 1200q-11 30 -18 59q-7 25 -15 50h-4q-17 -66 -33 -107l-241 -665h553z"/>
+        </font>
+    </defs>
+</svg>

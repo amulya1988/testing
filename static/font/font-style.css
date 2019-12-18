@@ -1,0 +1,16 @@
+
+@font-face {
+  font-family: 'Cambria';
+  src: local('Cambria'),url('Cambria.eot') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Cambria';
+  src:  local('Cambria'),url(data:application/x-font-woff;charset=utf-8;base64,) format('woff'), url('Cambria.ttf')  format('truetype'), url('Cambria.svg#Cambria') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
